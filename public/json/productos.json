@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "idCategoria": "elemental",
+        "idCategoria": "Elemental",
         "nombre": "Lavanda",
         "modelo": "50 ml",
         "precio": "4000",
@@ -22,7 +22,7 @@
 
     {
         "id": 3,
-        "idCategoria": "elemental",
+        "idCategoria": "Elemental",
         "nombre": "Canela",
         "modelo": "60 ml",
         "precio": "6000",
@@ -52,7 +52,7 @@
     },
     {
         "id": 6,
-        "idCategoria": "elemental",
+        "idCategoria": "Elemental",
         "nombre": "Jazmín",
         "modelo": "60 ml",
         "precio": "7000",
