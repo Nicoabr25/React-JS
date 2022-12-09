@@ -1,4 +1,5 @@
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 import Categorias from './Categorias/Categorias';
 import CartWidget from '../CartWidget/CartWidget';
 
@@ -14,9 +15,9 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarColor03">
                     <ul className="navbar-nav me-auto">
                         <li className="nav-item">
-                            <a className="menu nav-link active" href="">Inicio
+                            <a className="menu nav-link active"><Link to={"/"}>Inicio
                                 <span className="visually-hidden">(current)</span>
-                            </a>
+                            </Link></a>
                         </li>
                         <Categorias/>
                         <li className="nav-item">
