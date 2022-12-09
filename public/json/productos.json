@@ -1,0 +1,124 @@
+[
+    {
+        "id": 1,
+        "idCategoria": "elemental",
+        "nombre": "Lavanda",
+        "modelo": "50 ml",
+        "precio": "4000",
+        "stock" : 20,
+        "description":"Fragancia de Lavanda concentrada. Extracto 100% natural, concentrado al 20%.",
+        "img": "lavanda.png"
+    },
+    {
+        "id": 2,
+        "idCategoria": "Veraniego",
+        "nombre": "Menta",
+        "modelo": "50 ml",
+        "precio": "4000",
+        "stock" : 20,
+        "description":"Extracto de Menta fresca. Extracto 100% natural, concentrado al 22%.",
+        "img": "menta.png"
+    },
+
+    {
+        "id": 3,
+        "idCategoria": "elemental",
+        "nombre": "Canela",
+        "modelo": "60 ml",
+        "precio": "6000",
+        "stock" : 25,
+        "description":"Destilado de Canela. Extracto 100% natural, concentrado al 25%.",
+        "img": "canela.png"
+    },
+    {
+        "id": 4,
+        "idCategoria": "Otoñal",
+        "nombre": "Cloves",
+        "modelo": "50 ml",
+        "precio": "6800",
+        "stock" : 25,
+        "description":"Fragancia de Calvos. Extracto 100% natural, concentrado al 20%.",
+        "img": "clavo.png"
+    },
+    {
+        "id": 5,
+        "idCategoria": "Veraniego",
+        "nombre": "Cítrico",
+        "modelo": "75 ml",
+        "precio": "6500",
+        "stock" : 30,
+        "description":"Extracto Cítrico que contiene Limón, Naranja y Pomelo. Extracto 100% natural, concentrado al 15%.",
+        "img": "lemon.png"
+    },
+    {
+        "id": 6,
+        "idCategoria": "elemental",
+        "nombre": "Jazmín",
+        "modelo": "60 ml",
+        "precio": "7000",
+        "stock" : 30,
+        "description":"Fragancia de Jazmín de verano. Extracto 100% natural, concentrado al 20%.",
+        "img": "jazmin.png"
+    },
+    {
+        "id": 7,
+        "idCategoria": "Otoñal",
+        "nombre": "Cafe",
+        "modelo": "60 ml",
+        "precio": "7500",
+        "stock" : 40,
+        "description":"Concentrado de Cafe natural de altura. Extracto 100% natural, concentrado al 25%.",
+        "img": "cafe.png"
+    },
+    {
+        "id": 8,
+        "idCategoria": "Veraniego",
+        "nombre": "Nro 1",
+        "modelo": "50 ml",
+        "precio": "6500",
+        "stock" : 20,
+        "description":"Fragancia ligera y fresca para uso en épocas de verano, concentrado 15% v/v.",
+        "img": "nro1.png"
+    },
+    {
+        "id": 9,
+        "idCategoria": "Otoñal",
+        "nombre": "Segunda",
+        "modelo": "50 ml",
+        "precio": "7500",
+        "stock" : 30,
+        "description":"Fragancia robusta y amaderada, concentrado 17% v/v.",
+        "img": "nro2.png"
+    },
+    {
+        "id": 10,
+        "idCategoria": "Otoñal",
+        "nombre": "Tercera",
+        "modelo": "50 ml",
+        "precio": "8000",
+        "stock" : 20,
+        "description":"Fragancia ligera y amaderada, ideal para el otoño, concentrado 20% v/v.",
+        "img": "nro3.png"
+    },
+    {
+        "id": 11,
+        "idCategoria": "Otoñal",
+        "nombre": "Cuarta",
+        "modelo": "50 ml",
+        "precio": "8000",
+        "stock" : 20,
+        "description":"Fragancia terroza, propia de la montaña. concentrado 20% v/v.",
+        "img": "nro4.png"
+    },
+    {
+        "id": 12,
+        "idCategoria": "Veraniego",
+        "nombre": "Quinta",
+        "modelo": "50 ml",
+        "precio": "8500",
+        "stock" : 20,
+        "description":"Perfume ligero y fresco, ideal para el verano, concentrado 17% v/v.",
+        "img": "nro5.png"
+    }
+    
+]
