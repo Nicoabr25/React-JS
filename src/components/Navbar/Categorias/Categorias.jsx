@@ -5,9 +5,9 @@ const Categorias = () => {
         <li className="nav-item dropdown">
         <a className="menu nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Productos</a>
         <div className="dropdown-menu">
-            <a className="dropdown-item"><Link to={"/categoria/Elemental"}>Elemental</Link></a>
-            <a className="dropdown-item"><Link to={"/categoria/Veraniego"}>Veraniego</Link></a>
-            <a className="dropdown-item"><Link to={"/categoria/Otoñal"}>Otoñal</Link></a>
+            <Link className="dropdown-item" to={"/categoria/Elemental"}>Elemental</Link>
+            <Link className="dropdown-item" to={"/categoria/Veraniego"}>Veraniego</Link>
+            <Link className="dropdown-item" to={"/categoria/Otoñal"}>Otoñal</Link>
         </div>
     </li>
     );
