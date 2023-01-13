@@ -2,13 +2,18 @@ import './Navbar.css';
 import { Link } from 'react-router-dom';
 import Categorias from './Categorias/Categorias';
 import CartWidget from '../CartWidget/CartWidget';
+import BotonDarkMode from './BotonDarkMode/BotonDarkMode';
 
+//Context
 
-const Navbar = () => {
+import { useDarkModeContext } from '../../context/DarkModeContext';
+
+const Navbar = () => { 
+    const {darkMode} = useDarkModeContext()
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className={`navbar navbar-expand-lg ${darkMode ? 'navbar-dark bg-dark' : 'navbar-light bg-light'}`}>
             <div className="container-fluid">
-                <a class="navbar-brand"><img src="./img/logo.png" alt="aromaLabLogo"/></a>
+                <p class="navbar-brand"><img src="./img/logo.png" alt="aromaLabLogo"/></p>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
                 </button>
@@ -21,9 +26,10 @@ const Navbar = () => {
                         </li>
                         <Categorias/>
                         <li className="nav-item">
-                            <a className="menu nav-link" href="">Contacto</a>
+                            <Link className="menu nav-link" to={"/"}>Contacto</Link>
                         </li>
                     </ul>
+                        <BotonDarkMode/>
                         <CartWidget/>
                 </div>
             </div>
