@@ -10,7 +10,7 @@ const Item = ({producto}) => {
     const {darkMode} = useDarkModeContext()
     return (
             <div className={`card ${darkMode ? 'text-white cardDarkMode' : ''}`}>
-                <img src={`../img/${producto.img}`} className="card-img" alt="..." />
+                <img src={producto.img} className="card-img" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{producto.nombre}</h5>
                     <p className="card-text">Presentación: {producto.modelo}</p>

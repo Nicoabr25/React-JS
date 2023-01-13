@@ -24,7 +24,7 @@ const Cart = () => {
                         <div className={`card cardCarrito ${darkMode ? 'text-white cardDarkMode' : ''}`} key={prod.id}>
                             <div>
                                 <div className='cardCarritoImg'>
-                                    <img src={`../img/${prod.img}`} alt="Producto"  className="img-fluid rounded"/>
+                                    <img src={prod.img} alt="Producto"  className="img-fluid rounded"/>
                                 </div>
                             </div>
                             <div>

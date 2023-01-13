@@ -7,7 +7,7 @@
         "precio": "4000",
         "stock" : 20,
         "description":"Fragancia de Lavanda concentrada. Extracto 100% natural, concentrado al 20%.",
-        "img": "lavanda.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/lavanda.png?alt=media&token=d081bf82-46ea-420c-8deb-7f504f6939bb"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "precio": "4000",
         "stock" : 20,
         "description":"Extracto de Menta fresca. Extracto 100% natural, concentrado al 22%.",
-        "img": "menta.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/menta.png?alt=media&token=53fa50ae-f53d-462d-ad9d-3b08d675d1a9"
     },
 
     {
@@ -28,7 +28,7 @@
         "precio": "6000",
         "stock" : 25,
         "description":"Destilado de Canela. Extracto 100% natural, concentrado al 25%.",
-        "img": "canela.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/canela.png?alt=media&token=28fc1852-ee18-47d9-b9e6-898d82c6b768"
     },
     {
         "id": 4,
@@ -38,7 +38,7 @@
         "precio": "6800",
         "stock" : 25,
         "description":"Fragancia de Calvos. Extracto 100% natural, concentrado al 20%.",
-        "img": "clavo.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/clavo.png?alt=media&token=9525286c-07c9-4db8-b0ee-8368882dfd74"
     },
     {
         "id": 5,
@@ -48,7 +48,7 @@
         "precio": "6500",
         "stock" : 30,
         "description":"Extracto Cítrico que contiene Limón, Naranja y Pomelo. Extracto 100% natural, concentrado al 15%.",
-        "img": "lemon.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/lemon.png?alt=media&token=4fdb485f-2893-4596-b2cf-cfc3e9f77b7b"
     },
     {
         "id": 6,
@@ -58,7 +58,7 @@
         "precio": "7000",
         "stock" : 30,
         "description":"Fragancia de Jazmín de verano. Extracto 100% natural, concentrado al 20%.",
-        "img": "jazmin.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/jazmin.png?alt=media&token=2ad335ac-d441-4ebe-8bbd-6080ec6462af"
     },
     {
         "id": 7,
@@ -68,7 +68,7 @@
         "precio": "7500",
         "stock" : 40,
         "description":"Concentrado de Cafe natural de altura. Extracto 100% natural, concentrado al 25%.",
-        "img": "cafe.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/cafe.png?alt=media&token=c3995882-b264-4e79-80f8-37dfbe15a504"
     },
     {
         "id": 8,
@@ -78,7 +78,7 @@
         "precio": "6500",
         "stock" : 20,
         "description":"Fragancia ligera y fresca para uso en épocas de verano, concentrado 15% v/v.",
-        "img": "nro1.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/nro1.png?alt=media&token=5bd91fe5-3f5f-468f-b1b6-e69fb20a39bb"
     },
     {
         "id": 9,
@@ -88,7 +88,7 @@
         "precio": "7500",
         "stock" : 30,
         "description":"Fragancia robusta y amaderada, concentrado 17% v/v.",
-        "img": "nro2.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/nro2.png?alt=media&token=5f91f6f7-15bd-4f3f-a399-6b0d5a3f69e2"
     },
     {
         "id": 10,
@@ -98,7 +98,7 @@
         "precio": "8000",
         "stock" : 20,
         "description":"Fragancia ligera y amaderada, ideal para el otoño, concentrado 20% v/v.",
-        "img": "nro3.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/nro3.png?alt=media&token=3f50fa5c-ff74-4e6a-9c5e-ba5b185dccba"
     },
     {
         "id": 11,
@@ -108,7 +108,7 @@
         "precio": "8000",
         "stock" : 20,
         "description":"Fragancia terroza, propia de la montaña. concentrado 20% v/v.",
-        "img": "nro4.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/nro4.png?alt=media&token=b6c12759-7b95-44b2-ae85-5aa8edb7e4d6"
     },
     {
         "id": 12,
@@ -118,7 +118,7 @@
         "precio": "8500",
         "stock" : 20,
         "description":"Perfume ligero y fresco, ideal para el verano, concentrado 17% v/v.",
-        "img": "nro5.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/nro5.png?alt=media&token=bd633d88-8d1f-408c-adce-fbaeffeb873a"
     }
     
 ]

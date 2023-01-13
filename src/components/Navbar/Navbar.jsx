@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <nav className={`navbar navbar-expand-lg ${darkMode ? 'navbar-dark bg-dark' : 'navbar-light bg-light'}`}>
             <div className="container-fluid">
-                <p class="navbar-brand"><img src="./img/logo.png" alt="aromaLabLogo"/></p>
+                <p class="navbar-brand"><img src="https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/logo.png?alt=media&token=9b24d6c5-ea21-4cab-b754-0193c6018ea9" alt="aromaLabLogo"/></p>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
                 </button>

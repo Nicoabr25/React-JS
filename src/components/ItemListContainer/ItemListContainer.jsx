@@ -3,6 +3,7 @@ import { useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import ItemList from '../ItemList/ItemList';
 import consultarBDD from "../../assets/funciones.js"
+import { cargarBDD } from '../../assets/firebase';
 
 const ItemListContainer = () => {
     const [productos, setProductos] = useState([]);
@@ -24,6 +25,8 @@ const ItemListContainer = () => {
         })
     }
     
+    //cargarBDD().then(productos => console.table(productos))
+
 },[categoria]); //LO que hace el useEffect es ejecutar la funcion consultarBDD cuando ocurran cambios en el array que defini en useState, osea que el array aranca vacio, se llena y ya el useEffect no lo ejecuta de nuevo hasta que haya otra modificación en el array, de esta forma controlo cuantas veces se ejecuta la consulta a BDD//
 
     
