@@ -13,10 +13,10 @@ const Checkout = () => {
         e.preventDefault()
         const datForm = new FormData(formulario.current)
         const cliente = Object.fromEntries(datForm)
-
         const aux = [...carrito]
 
-        aux.forEach(prodCarrito => {
+        if(cliente.email === cliente.email2){
+            aux.forEach(prodCarrito => {
             getProducto(prodCarrito.id).then(prodBDD => {
                 if(prodBDD.stock >= prodCarrito.cant) {
                     prodBDD.stock -= prodCarrito.cant //descuento stock
@@ -27,22 +27,26 @@ const Checkout = () => {
 
                 }
             })
-        })
-
-        console.table(cliente)
-        
-        createOrdenCompra(cliente, totalPrice(), new Date().toISOString().slice(0,10)).then(ordenCompra => {
-            getOrdenCompra(ordenCompra.id).then(item => {
-                toast.success(`¡Compra realizada! Muchas gracias!, su número de orden es: ${item.id}`)
-                emptyCart()
-                e.target.reset()
-                navigate("/")//Finalizada la compra me vuelvo a la ruta inicial
-            }).catch(error => {
-                toast.error("🤕 La orden no fue generada!")
-                console.error(error)
             })
-            
-        })
+
+            console.table(cliente)
+            createOrdenCompra(cliente, totalPrice(), new Date().toISOString().slice(0,10)).then(ordenCompra => {
+                getOrdenCompra(ordenCompra.id).then(item => {
+                    toast.success(`¡Compra realizada! Muchas gracias!, su número de orden es: ${item.id}`)
+                    emptyCart()
+                    e.target.reset()
+                    navigate("/")//Finalizada la compra me vuelvo a la ruta inicial
+                }).catch(error => {
+                    toast.error("🤕 La orden no fue generada!")
+                    console.error(error)
+                })
+                
+            })
+        }
+        else{
+            toast.error("🤕 email invalido!")
+        }
+
         
     }
     return (
@@ -62,8 +66,6 @@ const Checkout = () => {
                 <input type="text" defaultValue="Calle 1111" name="direccion" tabIndex={4} required/>
                 <label htmlFor="celular">Teléfono:</label>
                 <input type="number" defaultValue="1155555555" name="celular" tabIndex={5} required/>
-                {/* <label htmlFor="comentario">Déjanos tu comentario:</label>
-                <textarea className="dato" placeholder="Escribí aquí tu comentario:" name="comentario" rows={10} cols={30} tabIndex={3} defaultValue={"\"Comentario de prueba...\""} /> */}
                 <div className='formulario_botones'>
                     <button className='btn btn-secondary' type="submit">Comprar</button>
                     <button className='btn btn-secondary' typer="reset">Cancelar</button>
