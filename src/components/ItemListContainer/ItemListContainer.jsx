@@ -2,8 +2,9 @@ import React from 'react';
 import { useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import ItemList from '../ItemList/ItemList';
-import consultarBDD from "../../assets/funciones.js"
-import { cargarBDD } from '../../assets/firebase';
+import {getProductos, getProducto, updateProducto, deleteProducto } from '../../assets/firebase.js';
+//import consultarBDD from "../../assets/funciones.js"
+//import { cargarBDD } from '../../assets/firebase';
 
 const ItemListContainer = () => {
     const [productos, setProductos] = useState([]);
@@ -11,14 +12,14 @@ const ItemListContainer = () => {
 
     useEffect(()=> {
         if(categoria) {
-            consultarBDD("../json/productos.json").then(products => {
+            getProductos().then(products => {
                 const productslist= products.filter(prod => prod.stock >0).filter(prod => prod.idCategoria === categoria)
                 const cardProductos = ItemList({productslist}) //ItemList va a transofrmar el arrray de productos de js a objetos de jsx mediante map//
                     setProductos(cardProductos)
             })
 
         }else{
-        consultarBDD("./json/productos.json").then(products => {
+            getProductos().then(products => {
         const productslist= products.filter(prod => prod.stock >0)
         const cardProductos = ItemList({productslist}) //ItemList va a transofrmar el arrray de productos de js a objetos de jsx mediante map//
             setProductos(cardProductos)
