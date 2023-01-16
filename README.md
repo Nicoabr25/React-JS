@@ -1,8 +1,20 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Entrega Final React Comisión 41100
 
-## Available Scripts
+Este proyecto se basa en la construcción de un sitio de compras online, donde se pueden comprar fragancias elementales como algunas fragancias propias de la marca. 
+Se realizó en React utilizando tambíen Bootstrap y Toastify para React.
+
+
+
+## Appendix
+
+In addition to having installed nodejs you will have to installed the folowwing modules by npm
+
+React - npx create-react-app
+
+Firebase - npm i firebase
+
+Toastify - npm install --save react-toastify
 
 In the project directory, you can run:
 
@@ -28,43 +40,17 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Build whit 🛠️...
 
-### `npm run eject`
+*[React] (https://es.reactjs.org/) - JS Framework
+*[Toastify] (https://fkhadra.github.io/react-toastify/introduction) - Toastify for React
+*[Firestore] (https://firebase.google.com/) - Firestore
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/Screenshots%2Fscreenshot%201.png?alt=media&token=820c1d05-a6d2-45a8-ba8b-8a8c0342c924
+https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/Screenshots%2FScreenshot%202.png?alt=media&token=784bfa04-572c-4d45-8859-d4f6b62e6f21
+https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/Screenshots%2Fscreenshot%203.png?alt=media&token=5e05be2b-e624-4636-a83f-63fd8241fdf1
+https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/Screenshots%2Fscreenshot%205.png?alt=media&token=5c4ba27a-fea5-4852-8c23-af3cab6a9ac8
+https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/Screenshots%2Fscreenshot%206.png?alt=media&token=3ab76940-6da6-4aa1-be5d-52a406248c70
+https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/Screenshots%2Fscreenshot%208.png?alt=media&token=eda885f8-d34a-4930-a230-796bcba3bbce
+https://firebasestorage.googleapis.com/v0/b/react-nicolasabraham.appspot.com/o/Screenshots%2Fscreenshot%207.png?alt=media&token=f8e4a226-49d9-4a90-b224-e16c4155afda
